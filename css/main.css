@@ -29,6 +29,26 @@ header h3 {
 	margin:auto;
 }
 
+#features {
+	background-color: #EEE;
+	padding: 30px 0;
+}
+
+#features h2 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#features .feature {
+	margin: 0;
+	margin-right: 75px;
+	width: 175px;
+}
+
+#features .feature:last-child {
+	margin-right: 0;
+}
+
 #partners-in-crime {
 	margin: 30px 0 50px 0;
 	text-align: center;
