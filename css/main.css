@@ -54,12 +54,17 @@ header .hero .actions button {
 
 #features .feature {
 	margin: 0;
-	margin-right: 75px;
-	width: 175px;
+	margin-right: 40px;
+	width: 210px;
 }
 
 #features .feature:last-child {
 	margin-right: 0;
+}
+
+#features .feature p {
+	margin: 0;
+	padding-right: 15px;
 }
 
 #partners-in-crime {
