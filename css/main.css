@@ -15,6 +15,10 @@ header h3 {
 
 }
 
+header .hero .actions button {
+	margin: 20px 15px 0px 0px;
+}
+
 #menu {
 	min-height:60px;
 	background-color: #111;
