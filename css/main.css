@@ -1,4 +1,9 @@
 /* #6DE103 */
+
+body {
+	background-color: #111;
+}
+
 header {
 	background-color:#222;
 	color:#CCC;
@@ -17,6 +22,10 @@ header h3 {
 
 header .hero .actions button {
 	margin: 20px 15px 0px 0px;
+}
+
+#deps, #launch {
+	background-color: #FFF;
 }
 
 #menu {
@@ -72,7 +81,7 @@ header .hero .actions button {
 }
 
 footer {
-	background-color: black;
+	background-color: #111;
 	border-top: 5px solid #6DE103;
 	padding: 15px 0;
 	text-align: center;
