@@ -2,7 +2,18 @@
 
 header {
 	background-color:#222;
+	color:#CCC;
+	line-height: 1.6em;
+	text-shadow: 1px 1px #000;
+	padding:30px 0px 40px 0px;
+}
+
+header  h1 {
 	color:#FFF;
+}
+
+header h3 {
+
 }
 
 #menu {
