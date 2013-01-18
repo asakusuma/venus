@@ -1,1 +1,25 @@
 /* #FF0000 */
+
+footer {
+	background-color: black;
+	border-top: 5px solid #FF0000;
+	padding: 15px 0;
+	text-align: center;
+}
+
+footer .info {
+	color: #666;
+	font-size: 12px;
+	margin: 0;
+}
+
+footer .info li {
+	display: inline;
+	margin-right: 55px;
+}
+
+footer .info li .project-name {
+	color: #FFF;
+	display: inline;
+	font-weight: normal;
+}
