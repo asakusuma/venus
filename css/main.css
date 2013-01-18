@@ -1,4 +1,4 @@
-/* #FF0000 */
+/* #6DE103 */
 header {
 	background-color:#222;
 	color:#CCC;
@@ -49,7 +49,7 @@ header h3 {
 
 footer {
 	background-color: black;
-	border-top: 5px solid #FF0000;
+	border-top: 5px solid #6DE103;
 	padding: 15px 0;
 	text-align: center;
 }
