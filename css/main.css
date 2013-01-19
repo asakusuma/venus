@@ -116,6 +116,11 @@ header .hero .actions button {
 
 #dependencies .partners {
 	margin: 0;
+	margin-right: 40px;
+}
+
+#dependencies .partners:last-child {
+	margin-right: 0;
 }
 
 #dependencies .partners p {
