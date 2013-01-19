@@ -44,11 +44,11 @@ header .hero .actions button {
 
 #features {
 	background-color: #EEE;
-	padding: 30px 0;
+	padding: 30px 0 50px 0;
 }
 
 #features h2 {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -62,18 +62,32 @@ header .hero .actions button {
 	margin-right: 0;
 }
 
+#features .feature h4 {
+	color: #6DE103;
+	font-weight: normal;
+	margin-top: 0;
+}
+
 #features .feature p {
 	margin: 0;
 	padding-right: 15px;
 }
 
 #partners-in-crime {
-	margin: 30px 0 50px 0;
+	padding: 30px 0 50px 0;
+}
+
+#partners-in-crime h2 {
+	margin-bottom: 30px;
 	text-align: center;
 }
 
 #partners-in-crime .partners {
-	margin-top: 20px;
+	margin: 0;
+}
+
+#partners-in-crime .partners p {
+	color: #6DE103;
 }
 
 #partners-in-crime .partners .logos {
