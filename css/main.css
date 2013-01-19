@@ -120,15 +120,42 @@ header .hero .actions button {
 
 #dependencies .partners p {
 	color: #6DE103;
-}
-
-#dependencies .partners .logos {
 	margin: 0;
 }
 
-#dependencies .partners .logos li {
+#dependencies .partners .logos {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 15px;
+}
+
+#dependencies .partners .logos.deps li {
 	display: inline;
 	margin-right: 55px;
+}
+
+#dependencies .partners .logos.frameworks {
+	overflow: hidden;
+}
+
+#dependencies .partners .logos.frameworks li {
+	float: left;
+}
+
+#dependencies .partners .logos.frameworks li.mocha {
+	margin: 30px 50px 0 60px;
+}
+
+#dependencies .partners .logos.frameworks li.casperjs {
+	margin-top: 8px;
+}
+
+#dependencies .partners .logos.frameworks li.jasmine {
+	margin-right: 130px;
+}
+
+#dependencies .partners .logos.frameworks li.selenium {
+	margin-top: 5px;
 }
 
 footer {
