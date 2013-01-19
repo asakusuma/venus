@@ -30,15 +30,17 @@
     		<div class="row">
     			<img src="img/logo.png" />
     			<ul>
-    				<li><a href="">Intro</a></li>
-    				<li><a href="">Launch</a></li>
-    				<li><a href="">Features</a></li>
-    				<li><a href="">Documentation</a></li>
-    				<li><a href="">Dependencies</a></li>
+    				<li><a href="#intro">Intro</a></li>
+    				<li><a href="#launch">Launch</a></li>
+    				<li><a href="#features">Features</a></li>
+    				<li><a href="#documentation">Documentation</a></li>
+    				<li><a href="#dependencies">Dependencies</a></li>
     			</ul>
     		</div>
     	</div>
-    	<header class="block">
+
+        <!-- Intro -->
+    	<header id="intro" class="block">
     		<div class="row">
 	    		<div class="hero">
 	    			<h1>Introducing Venus</h1>
@@ -55,60 +57,56 @@
     	</header>
 
     	<!-- QUICK LAUNCH -->
-    	<div class="block" id="launch">
+    	<div  id="launch" class="block">
     		<div class="row">
     			<h2>Quick Launch</h2>
     		</div>
     	</div>
 
     	<!-- FEATURES -->
-        <div class="block">
-            <div id="features">
-                <div class="row">
-                    <h2>Stellar Features</h2>
-                    <div class="feature span3">
-                        <h4>CL Interface</h4>
-                        <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum, elit vitae volutpat eleifend, odio eros porttitor risus, non tristique magna erat ut enim. Vestibulum congue nulla ac tellus semper pharetra.</p>
-                    </div>
-                    <div class="feature span3">
-                        <h4>Tool integration</h4>
-                        <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Cras suscipit congue orci sed fermentum. In at nisl quis lorem ultrices sagittis sed quis purus. Donec at mauris felis. Quisque pretium odio at sem ultrices pulvinar malesuada urna sagittis.</p>
-                    </div>
-                    <div class="feature span3">
-                        <h4>Advanced Configuration</h4>
-                        <p>Nam ut ante at magna eleifend mattis. Aenean fermentum nisi eget risus porta mollis tincidunt nunc mattis. Sed eget lacus eu arcu venenatis suscipit. Nam cursus, sapien vel varius cursus, risus elit elementum enim, non laoreet neque magna ac massa. Donec tincidunt lobortis suscipit. Sed consequat velit vitae diam suscipit malesuada. In posuere blandit posuere.</p>
-                    </div>
-                    <div class="feature span3">
-                        <h4>Use with CI</h4>
-                        <p>Nam tincidunt ligula et mauris luctus suscipit. Ut sit amet blandit arcu. Pellentesque nec justo nec metus rutrum porta in vitae elit. In metus sem, vehicula sit amet semper elementum, suscipit nec nulla. Sed convallis laoreet felis, non tempus purus venenatis ac. Maecenas placerat vestibulum arcu, sed iaculis arcu viverra sit amet. Phasellus volutpat metus at lorem dictum scelerisque. Aenean convallis commodo enim vitae ornare.</p>
-                    </div>
+        <div id="features" class="block">
+            <div class="row">
+                <h2>Stellar Features</h2>
+                <div class="feature span3">
+                    <h4>CL Interface</h4>
+                    <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum, elit vitae volutpat eleifend, odio eros porttitor risus, non tristique magna erat ut enim. Vestibulum congue nulla ac tellus semper pharetra.</p>
                 </div>
-        	</div>
+                <div class="feature span3">
+                    <h4>Tool integration</h4>
+                    <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Cras suscipit congue orci sed fermentum. In at nisl quis lorem ultrices sagittis sed quis purus. Donec at mauris felis. Quisque pretium odio at sem ultrices pulvinar malesuada urna sagittis.</p>
+                </div>
+                <div class="feature span3">
+                    <h4>Advanced Configuration</h4>
+                    <p>Nam ut ante at magna eleifend mattis. Aenean fermentum nisi eget risus porta mollis tincidunt nunc mattis. Sed eget lacus eu arcu venenatis suscipit. Nam cursus, sapien vel varius cursus, risus elit elementum enim, non laoreet neque magna ac massa. Donec tincidunt lobortis suscipit. Sed consequat velit vitae diam suscipit malesuada. In posuere blandit posuere.</p>
+                </div>
+                <div class="feature span3">
+                    <h4>Use with CI</h4>
+                    <p>Nam tincidunt ligula et mauris luctus suscipit. Ut sit amet blandit arcu. Pellentesque nec justo nec metus rutrum porta in vitae elit. In metus sem, vehicula sit amet semper elementum, suscipit nec nulla. Sed convallis laoreet felis, non tempus purus venenatis ac. Maecenas placerat vestibulum arcu, sed iaculis arcu viverra sit amet. Phasellus volutpat metus at lorem dictum scelerisque. Aenean convallis commodo enim vitae ornare.</p>
+                </div>
+            </div>
         </div>
 
-    	<!-- PARTNERS IN CRIME -->
-    	<div class="block" id="deps">
-            <div id="partners-in-crime">
-            	<div class="row">
-	                <h2>Partners in Crime</h2>
-	                <div class="partners span6">
-	                    <p>Venus two hard dependencies</p>
-	                    <ul class="logos">
-	                        <li>node.js</li>
-	                        <li>phantomJS</li>
-	                    </ul>
-	                </div>
-	                <div class="partners span6">
-	                    <p>In addition, Venus orbits with the following frameworks and tools</p>
-	                    <ul class="logos">
-	                        <li>qunit</li>
-	                        <li>mocha</li>
-	                        <li>Jasmine</li>
-	                        <li>casper</li>
-	                        <li>selenium</li>
-	                    </ul>
-	                </div>
-	            </div>
+    	<!-- DEPENDENCIES -->
+    	<div id="dependencies" class="block">
+        	<div class="row">
+                <h2>Partners in Crime</h2>
+                <div class="partners span6">
+                    <p>Venus two hard dependencies</p>
+                    <ul class="logos">
+                        <li>node.js</li>
+                        <li>phantomJS</li>
+                    </ul>
+                </div>
+                <div class="partners span6">
+                    <p>In addition, Venus orbits with the following frameworks and tools</p>
+                    <ul class="logos">
+                        <li>qunit</li>
+                        <li>mocha</li>
+                        <li>Jasmine</li>
+                        <li>casper</li>
+                        <li>selenium</li>
+                    </ul>
+                </div>
             </div>
     	</div>
 
