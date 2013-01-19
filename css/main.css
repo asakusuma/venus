@@ -33,6 +33,38 @@ header .hero .actions button {
 	background-color: #111;
 }
 
+#menu ul {
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+
+#menu li  {
+	float:left;
+	list-style: none;
+	margin:20px 0px 0px 20px;
+	padding:0px;
+}
+
+#menu img {
+	height:38px;
+	margin:12px 0px 0px 0px;
+}
+
+#menu li a {
+	color:#666;
+	text-shadow: 1px 1px #000;
+	font-size:16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-family: 'Economica', sans-serif;
+	font-family: 'Bitter', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+}
+
 .block {
 	width:100%;
 }
