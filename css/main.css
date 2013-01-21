@@ -1,4 +1,4 @@
-/* #6DE103 */
+/* #7DAF42 */
 
 body {
 	background-color: #111;
@@ -74,6 +74,67 @@ header .hero .actions button {
 	margin:auto;
 }
 
+#launch {
+	padding-top: 30px;
+}
+
+#launch h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#launch .instructions {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+#launch .instructions .step {
+	float: left;
+	margin-right: 15px;
+	width: 180px;
+}
+
+#launch .instructions .step:last-child {
+	margin-right: 0;
+}
+
+#launch .instructions .step a {
+	text-decoration: none;
+}
+
+#launch .instructions .step .step-number {
+	border: 4px solid #999;
+	border-radius: 40px;
+	color: #999;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	margin-right: 10px;
+	text-align: center;
+	width: 33px;
+}
+
+#launch .instructions .step p {
+	color: #999;
+	margin: 0;
+	overflow: hidden;
+	width: 88px;
+}
+
+
+#launch .instructions .step.active .step-number {
+	background-color: #97BF68;
+	border-color: #7DAF42;
+	color: #FFF;
+}
+
+#launch .instructions .step.active p {
+	color: #7DAF42;
+}
+
 #features {
 	background-color: #EEE;
 	padding: 30px 0 50px 0;
@@ -95,7 +156,7 @@ header .hero .actions button {
 }
 
 #features .feature h4 {
-	color: #6DE103;
+	color: #7DAF42;
 	font-weight: normal;
 	margin-top: 0;
 }
@@ -124,7 +185,7 @@ header .hero .actions button {
 }
 
 #dependencies .partners p {
-	color: #6DE103;
+	color: #7DAF42;
 	margin: 0;
 }
 
@@ -165,7 +226,7 @@ header .hero .actions button {
 
 footer {
 	background-color: #111;
-	border-top: 5px solid #6DE103;
+	border-top: 5px solid #7DAF42;
 	padding: 15px 0;
 	text-align: center;
 }
