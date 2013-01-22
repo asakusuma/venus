@@ -137,7 +137,7 @@ header .hero .actions button {
 
 #launch .terminal {
 	height: 200px;
-	margin: 40px 0 0 115px;
+	margin: 40px 0 0 80px;
 	overflow: hidden;
 	position: relative;
 }
@@ -148,8 +148,10 @@ header .hero .actions button {
 	font-size: 12px;
 	font-weight: bold;
 	left: 5px;
+	right: 5px;
 	position: absolute;
 	top: 25px;
+	width: 790px;
 }
 
 #launch .terminal .prompt .command {
@@ -161,7 +163,7 @@ header .hero .actions button {
 }
 
 #launch .terminal img {
-	width: 730px;
+	width: 800px;
 }
 
 #features {
