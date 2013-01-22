@@ -135,6 +135,16 @@ header .hero .actions button {
 	color: #7DAF42;
 }
 
+#launch .terminal {
+	height: 200px;
+	margin: 40px 0 0 115px;
+	overflow: hidden;
+}
+
+#launch .terminal img {
+	width: 730px;
+}
+
 #features {
 	background-color: #EEE;
 	padding: 30px 0 50px 0;
