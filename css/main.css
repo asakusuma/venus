@@ -1,0 +1,280 @@
+/* #7DAF42 */
+
+body {
+	background-color: #111;
+}
+
+header {
+	background-color:#222;
+	color:#CCC;
+	line-height: 1.6em;
+	text-shadow: 1px 1px #000;
+	padding:30px 0px 40px 0px;
+}
+
+header  h1 {
+	color:#FFF;
+}
+
+header h3 {
+
+}
+
+header .hero .actions button {
+	margin: 20px 15px 0px 0px;
+}
+
+#deps, #launch, #dependencies {
+	background-color: #FFF;
+}
+
+#menu {
+	min-height:60px;
+	background-color: #111;
+}
+
+#menu ul {
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+
+#menu li  {
+	float:left;
+	list-style: none;
+	margin:20px 0px 0px 20px;
+	padding:0px;
+}
+
+#menu img {
+	height:38px;
+	margin:12px 0px 0px 0px;
+}
+
+#menu li a {
+	color:#666;
+	text-shadow: 1px 1px #000;
+	font-size:16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
+	font-family: 'Economica', sans-serif;
+	font-family: 'Bitter', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cuprum', sans-serif;
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+}
+
+.block {
+	width:100%;
+}
+
+.row {
+	width:960px;
+	margin:auto;
+}
+
+#launch {
+	padding-top: 30px;
+}
+
+#launch h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#launch .instructions {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+#launch .instructions .step {
+	float: left;
+	margin-right: 15px;
+	width: 180px;
+}
+
+#launch .instructions .step:last-child {
+	margin-right: 0;
+}
+
+#launch .instructions .step a {
+	text-decoration: none;
+}
+
+#launch .instructions .step .step-number {
+	border: 4px solid #999;
+	border-radius: 40px;
+	color: #999;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	height: 33px;
+	line-height: 33px;
+	margin-right: 10px;
+	text-align: center;
+	width: 33px;
+}
+
+#launch .instructions .step p {
+	color: #999;
+	margin: 0;
+	overflow: hidden;
+	width: 88px;
+}
+
+
+#launch .instructions .step.active .step-number {
+	background-color: #97BF68;
+	border-color: #7DAF42;
+	color: #FFF;
+}
+
+#launch .instructions .step.active p {
+	color: #7DAF42;
+}
+
+#launch .terminal {
+	height: 200px;
+	margin: 40px 0 0 80px;
+	overflow: hidden;
+	position: relative;
+}
+
+#launch .terminal .prompt {
+	color: #FFF;
+	font-family: Monaco;
+	font-size: 12px;
+	font-weight: bold;
+	left: 5px;
+	right: 5px;
+	position: absolute;
+	top: 25px;
+	width: 790px;
+}
+
+#launch .terminal .prompt .command {
+	display: none;
+}
+
+#launch .terminal .prompt .command.active {
+	display: inline;
+}
+
+#launch .terminal img {
+	width: 800px;
+}
+
+#features {
+	background-color: #EEE;
+	padding: 30px 0 50px 0;
+}
+
+#features h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#features .feature {
+	margin: 0;
+	margin-right: 40px;
+	width: 210px;
+}
+
+#features .feature:last-child {
+	margin-right: 0;
+}
+
+#features .feature h4 {
+	color: #7DAF42;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#features .feature p {
+	margin: 0;
+	padding-right: 15px;
+}
+
+#dependencies {
+	padding: 30px 0 50px 0;
+}
+
+#dependencies h2 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#dependencies .partners {
+	margin: 0;
+	margin-right: 40px;
+}
+
+#dependencies .partners:last-child {
+	margin-right: 0;
+}
+
+#dependencies .partners p {
+	color: #7DAF42;
+	margin: 0;
+}
+
+#dependencies .partners .logos {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 15px;
+}
+
+#dependencies .partners .logos.deps li {
+	display: inline;
+	margin-right: 55px;
+}
+
+#dependencies .partners .logos.frameworks {
+	overflow: hidden;
+}
+
+#dependencies .partners .logos.frameworks li {
+	float: left;
+}
+
+#dependencies .partners .logos.frameworks li.mocha {
+	margin: 30px 50px 0 60px;
+}
+
+#dependencies .partners .logos.frameworks li.casperjs {
+	margin-top: 8px;
+}
+
+#dependencies .partners .logos.frameworks li.jasmine {
+	margin-right: 130px;
+}
+
+#dependencies .partners .logos.frameworks li.selenium {
+	margin-top: 5px;
+}
+
+footer {
+	background-color: #111;
+	border-top: 5px solid #7DAF42;
+	padding: 15px 0;
+	text-align: center;
+}
+
+footer .info {
+	color: #666;
+	font-size: 12px;
+	margin: 0;
+}
+
+footer .info li {
+	display: inline;
+	margin-right: 55px;
+}
+
+footer .info li .project-name {
+	color: #FFF;
+	display: inline;
+	font-weight: normal;
+}
