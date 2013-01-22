@@ -36,6 +36,7 @@ header .hero .actions button {
 #menu ul {
 	float:right;
 	margin:0px;
+	margin-top:2px;
 	padding:0px;
 }
 
@@ -155,7 +156,7 @@ header .hero .actions button {
 	left: 49px;
 	position: absolute;
 	top: 53px;
-	width: 790px;
+	width: 704px;
 }
 
 #launch .terminal .prompt .command {
