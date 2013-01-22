@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Knewave|Source+Sans+Pro|Cabin:400,500,600,700|Economica:400,700,700italic|Bitter:400,700|Open+Sans:700,800italic|Cuprum:700,700italic|Cabin:400,500,600,700|Ubuntu+Mono:700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+</head>
+<body>
+	<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+    <div id="container">
+
+    	<!-- HEADER -->
+    	<div id="menu" class="block">
+    		<div class="row">
+    			<img src="img/logo.png" />
+    			<ul>
+    				<li><a href="#intro">Intro</a></li>
+    				<li><a href="#launch">Launch</a></li>
+    				<li><a href="#features">Features</a></li>
+    				<li><a href="#documentation">Documentation</a></li>
+    				<li><a href="#dependencies">Dependencies</a></li>
+    			</ul>
+    		</div>
+    	</div>
+
+        <!-- Intro -->
+    	<header id="intro" class="block">
+    		<div class="row">
+	    		<div class="hero">
+	    			<h1>Introducing Venus</h1>
+
+	    			<h3>Organize and run your entire JS testing system with a single tool using Node.js</h3>
+					By eliminating repetitive tasks and friction points, Venus lets you focus on writing tests instead of running them. Already have JavaScript testing in place? Perfect! Venus is designed to orchestrate and automate existing tools like Mocha and Casper. 
+		
+					<div class="actions">
+						<button class="btn btn-large btn-success" type="button">Download</button>
+						<button class="btn btn-large btn-success" type="button">Github</button>
+					</div>
+	    		</div>
+	    	</div>
+    	</header>
+
+    	<!-- QUICK LAUNCH -->
+    	<div id="launch" class="block">
+    		<div class="row">
+    			<h2>Quick Launch</h2>
+                <ul class="instructions">
+                    <li class="step active" data-step-number="1">
+                        <a href="#command1">
+                            <div class="step-number">1</div>
+                            <p>Install Node.js</p>
+                        </a>
+                    </li>
+                    <li class="step" data-step-number="2">
+                        <a href="#command2">
+                            <div class="step-number">2</div>
+                            <p>Install PhantomJS</p>
+                        </a>
+                    </li>
+                    <li class="step" data-step-number="3">
+                        <a href="#command3">
+                            <div class="step-number">3</div>
+                            <p>Install Venus via NPM</p>
+                        </a>
+                    </li>                    
+                    <li class="step" data-step-number="4">
+                        <a href="#command4">
+                            <div class="step-number">4</div>
+                            <p>Add Venus to your $PATH</p>
+                        </a>
+                    </li>
+                    <li class="step" data-step-number="5">
+                        <a href="#command5">
+                            <div class="step-number">5</div>
+                            <p>Verify installation</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="terminal">
+                    <p class="prompt">
+                        [ Venus ~ ]
+                        <span id="command1" class="command active" data-step-number="1">brew install node</span>
+                        <span id="command2" class="command" data-step-number="2">brew install phantomjs</span>
+                        <span id="command3" class="command" data-step-number="3">npm install -g venus</span>
+                        <span id="command4" class="command" data-step-number="4">export PATH=path/to/venus/directory/bin/venus:$PATH</span>
+                        <span id="command5" class="command" data-step-number="5">venus run --test venus/examples/01-SimpleMochaTest/specs/Greeter.spec.js --phantom</span>
+                    </p>
+                    <img src="img/terminal.png" alt="Terminal"> 
+                </div>
+    		</div>
+    	</div>
+
+    	<!-- FEATURES -->
+        <div id="features" class="block">
+            <div class="row">
+                <h2>Stellar Features</h2>
+                <div class="feature span3">
+                    <h4>CL Interface</h4>
+                    <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum, elit vitae volutpat eleifend, odio eros porttitor risus, non tristique magna erat ut enim. Vestibulum congue nulla ac tellus semper pharetra.</p>
+                </div>
+                <div class="feature span3">
+                    <h4>Tool integration</h4>
+                    <p>Blah blah blah, Venus is awesome. You should use it. We have a ballin' command line interface. Yay LinkedIn! Cras suscipit congue orci sed fermentum. In at nisl quis lorem ultrices sagittis sed quis purus. Donec at mauris felis. Quisque pretium odio at sem ultrices pulvinar malesuada urna sagittis.</p>
+                </div>
+                <div class="feature span3">
+                    <h4>Advanced Configuration</h4>
+                    <p>Nam ut ante at magna eleifend mattis. Aenean fermentum nisi eget risus porta mollis tincidunt nunc mattis. Sed eget lacus eu arcu venenatis suscipit. Nam cursus, sapien vel varius cursus, risus elit elementum enim, non laoreet neque magna ac massa. Donec tincidunt lobortis suscipit. Sed consequat velit vitae diam suscipit malesuada. In posuere blandit posuere.</p>
+                </div>
+                <div class="feature span3">
+                    <h4>Use with CI</h4>
+                    <p>Nam tincidunt ligula et mauris luctus suscipit. Ut sit amet blandit arcu. Pellentesque nec justo nec metus rutrum porta in vitae elit. In metus sem, vehicula sit amet semper elementum, suscipit nec nulla. Sed convallis laoreet felis, non tempus purus venenatis ac. Maecenas placerat vestibulum arcu, sed iaculis arcu viverra sit amet. Phasellus volutpat metus at lorem dictum scelerisque. Aenean convallis commodo enim vitae ornare.</p>
+                </div>
+            </div>
+        </div>
+
+    	<!-- DEPENDENCIES -->
+    	<div id="dependencies" class="block">
+        	<div class="row">
+                <h2>Partners in Crime</h2>
+                <div class="partners span6">
+                    <p>Venus two hard dependencies</p>
+                    <ul class="logos deps">
+                        <li class="nodejs"><img src="img/logos/nodejs.jpg" alt="Node.js" /></li>
+                        <li class="phantomjs"><img src="img/logos/phantomjs.jpg" alt="PhantomJS" /></li>
+                    </ul>
+                </div>
+                <div class="partners span6">
+                    <p>Venus also orbits with the following frameworks and tools</p>
+                    <ul class="logos frameworks">
+                        <li class="qunit"><img src="img/logos/qunit.jpg" alt="QUnit" /></li>
+                        <li class="mocha"><img src="img/logos/mocha.jpg" alt="Mocha" /></li>
+                        <li class="casperjs"><img src="img/logos/casperjs.jpg" alt="CasperJS" /></li>
+                        <li class="jasmine"><img src="img/logos/jasmine.jpg" alt="Jasmine" /></li>
+                        <li class="selenium"><img src="img/logos/selenium.jpg" alt="Selenium" /></li>
+                    </ul>
+                </div>
+            </div>
+    	</div>
+
+    	<footer>
+            <ul class="info">
+                <li>COPYRIGHT 2012 LINKEDIN</li>
+                <li><h3 class="project-name">Venus</h3></li>
+                <li>LEAD SETH MCLAUGHLIN</li>
+            </ul>
+    	</footer>
+    </div>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
