@@ -52,7 +52,7 @@ header .hero .actions button {
 }
 
 #menu li a {
-	color:#666;
+	color:#888;
 	text-shadow: 1px 1px #000;
 	font-size:16px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -63,6 +63,11 @@ header .hero .actions button {
 	font-family: 'Cuprum', sans-serif;
 	font-family: 'Cabin', sans-serif;
 	text-transform: uppercase;
+}
+
+#menu li a:hover {
+	text-decoration: none;
+	color: #FFF;
 }
 
 .block {
