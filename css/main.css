@@ -139,6 +139,25 @@ header .hero .actions button {
 	height: 200px;
 	margin: 40px 0 0 115px;
 	overflow: hidden;
+	position: relative;
+}
+
+#launch .terminal .prompt {
+	color: #FFF;
+	font-family: Monaco;
+	font-size: 12px;
+	font-weight: bold;
+	left: 5px;
+	position: absolute;
+	top: 25px;
+}
+
+#launch .terminal .prompt .command {
+	display: none;
+}
+
+#launch .terminal .prompt .command.active {
+	display: inline;
 }
 
 #launch .terminal img {
