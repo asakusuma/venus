@@ -318,6 +318,14 @@ footer .info > div > ul > li > span {
 	text-align: right;
 }
 
+footer a {
+	color:#7DAF42;
+}
+
+footer a:hover {
+	color:#7DAF42;
+}
+
 footer .info > div .project-name {
 	color: #FFF;
 	display: inline;
