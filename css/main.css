@@ -28,6 +28,16 @@ header .hero .actions button {
 	background-color: #FFF;
 }
 
+#documentation, #documentation li {
+	line-height:1.55em;
+	font-size:17px;
+	color:#555;
+}
+
+#documentation li {
+	margin-bottom:10px;
+}
+
 #intro {
 	margin-top:60px;
 }
