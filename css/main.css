@@ -172,13 +172,17 @@ header .hero .actions button {
 }
 
 #features {
-	background-color: #EEE;
+	border-top: 3px solid #EEE;
+	border-bottom: 3px solid #EEE;
+	box-shadow: 0px 5px 14px #333;
+	background-color: #F3F3F3;
 	padding: 30px 0 50px 0;
 }
 
 #features h2 {
 	margin-bottom: 30px;
 	text-align: center;
+	text-shadow: 2px 2px #FFF;
 }
 
 #features .feature {
@@ -199,6 +203,7 @@ header .hero .actions button {
 
 #features .feature p {
 	margin: 0;
+	color:#666;
 	padding-right: 15px;
 }
 
