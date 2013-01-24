@@ -28,7 +28,7 @@
     	<!-- HEADER -->
     	<div id="menu" class="block">
     		<div class="row">
-    			<img src="img/logo.png" />
+    			<img src="img/venus.png" />
     			<ul>
     				<li><a href="#intro">Intro</a></li>
     				<li><a href="#launch">Launch</a></li>
@@ -45,7 +45,7 @@
 	    		<div class="hero">
 	    			<h1>Introducing Venus</h1>
 
-	    			<h3>Organize and run your entire JS testing system with a single tool using Node.js</h3>
+	    			<h4>Organize and run your entire JS testing system with a single tool using Node.js</h4>
 					By eliminating repetitive tasks and friction points, Venus lets you focus on writing tests instead of running them. Already have JavaScript testing in place? Perfect! Venus is designed to orchestrate and automate existing tools like Mocha and Casper. 
 		
 					<div class="actions">
@@ -129,6 +129,82 @@
             </div>
         </div>
 
+        <div id="documentation">
+        	<div class="row">
+        		<h2>Documentation</h2>
+
+        		<h4>Create a Unit Test</h4>
+
+        		<p>
+					Venus allows you to specify the test library, file dependencies and the test harnesss page template to use directly from your unit test using comment-based annotations:
+				</p>
+
+				<ul>
+					<li>
+						@venus-library - Indicates the test library you wish to use. The test libraries that are currently supported are mocha, jasmine and qunit (Default value is mocha)
+					</li>
+					<li>
+						@venus-include - JavaScript file to include with your test suite. Use a seperate @venus-include annotation for every file you wish to include.
+					</li>
+					<li>
+						@venus-fixture - HTML that is included on test harness page
+					</li>
+					<li>
+						@venus-template - The name of the test harness page template you want to use for your test suite (Default value is .venus/templates/default.tl)
+						For example, let's say we have the following directory structure
+					</li>
+				</ul>
+
+				<pre>
+|-foobar
+  |-specs
+    |-foo.fixture.html
+    |-foo.spec.js
+  |-src
+    |-foo.js
+				</pre>
+				
+				<p>
+					foo.spec.js is a unit test file that validates the talk() function defined in foo.js behaves as expected.
+				</p>
+
+				<pre>
+/**
+ * @venus-library mocha
+ * @venus-include ../src/foo.js
+ * @venus-fixture ../src/foo.fixture.html
+ */
+
+test('Foo', function() {
+  var foo    = new Foo(),
+      result = foo.talk('Hello %s, how are you doing this fine %s?', 'John', 'Monday');
+
+  equal(result, 'Hello John, how are you doing this fine Monday?', 'Foo.talk() formats the string correctly');
+});
+				</pre>
+				<p>
+					As you can see above, the unit test file foo.spec.js does the following:
+				</p>
+				<ul>
+					<li>Defines Mocha as it's test library</li>
+					<li>Includes foo.js to instantiate a Foo object and access the talk() function</li>
+					<li>Uses foo.fixture.html to specify HTML needed in order to run the unit test</li>
+				</ul>
+
+				<h4>Run a Unit Test</h4>
+				<p>Unit tests can be run from the command line using PhantomJS or locally in a browser.</p>
+
+				<p>Run unit test with PhantomJS</p>
+
+				<pre>venus run --test path/to/unit/test/foo.spec.js --phantom</pre>
+				
+				<p>Run unit test locally</p>
+
+				<pre>venus run --test path/to/unit/test/foo.spec.js</pre>
+			</div>
+		</div>
+
+
     	<!-- DEPENDENCIES -->
     	<div id="dependencies" class="block">
         	<div class="row">
@@ -156,7 +232,7 @@
     	<footer>
             <ul class="info">
                 <li>COPYRIGHT 2012 LINKEDIN</li>
-                <li><h3 class="project-name">Venus</h3></li>
+                <li><h4 class="project-name">Venus</h4></li>
                 <li>LEAD SETH MCLAUGHLIN</li>
             </ul>
     	</footer>
