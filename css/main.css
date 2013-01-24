@@ -28,7 +28,14 @@ header .hero .actions button {
 	background-color: #FFF;
 }
 
+#intro {
+	margin-top:60px;
+}
+
 #menu {
+	position:fixed;
+	z-index:99;
+	top:0px;
 	min-height:60px;
 	background-color: #111;
 }
@@ -155,6 +162,7 @@ header .hero .actions button {
 	font-weight: bold;
 	left: 49px;
 	position: absolute;
+	z-index:50;
 	top: 53px;
 	width: 704px;
 }

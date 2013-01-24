@@ -24,4 +24,12 @@ $(document).ready(function() {
 			$newCommand.addClass('active');
 		};
 	});
+
+	$('#menu a').click(function(event) {
+		event.preventDefault();
+		var el = $(event.currentTarget);
+		$('html, body').animate({
+			scrollTop: $(el.attr('href')).offset().top - 60
+		}, 'slow');
+	});
 })
