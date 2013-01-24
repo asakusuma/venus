@@ -287,12 +287,28 @@ footer .info {
 	margin: 0;
 }
 
-footer .info li {
-	display: inline;
+footer .info > div {
+	display: inline-block;
 	margin-right: 55px;
+	vertical-align: top;
 }
 
-footer .info li .project-name {
+footer .info > div > ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	color:#888;
+	text-align:left;
+}
+
+footer .info > div > ul > li > span {
+	color:#333;
+	display:inline-block;
+	width:80px;
+	text-align: right;
+}
+
+footer .info > div .project-name {
 	color: #FFF;
 	display: inline;
 	font-weight: normal;
